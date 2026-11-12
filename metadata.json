@@ -1,0 +1,6 @@
+{
+  "name": "Soviet Republic: Workers & Logistics",
+  "description": "Simulação de logística industrial, economia planificada socialista e construção de infraestrutura urbana inspirada em Workers & Resources: Soviet Republic.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

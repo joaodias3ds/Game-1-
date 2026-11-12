@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    user-select: none;
+    background-color: #1c1917;
+  }
+}
+
+/* Custom scrollbars for industrial parchment menus */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ede4ce;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b91c1c;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #991b1b;
+}
